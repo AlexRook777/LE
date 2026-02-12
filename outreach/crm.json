@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Valeriy Sokolov",
+    "company": "AIS Software Ukraine",
+    "role": "CEO",
+    "source": "LinkedIn",
+    "status": "Request Sent",
+    "lastAction": "Sent connection request (Feb 12)",
+    "score": 3,
+    "dmDraft": "Hey Valeriy, thanks for the connection. I'm finishing a technical report on 'High-Margin AI Service Extensions for Software Agencies.' Since you lead AIS Software Ukraine, I'd love to get your perspective on whether your clients are asking for custom LLM integration yet. Happy to share my 'Agency AI Integration Framework' in exchange for your feedback."
+  },
+  {
+    "id": 2,
+    "name": "Eugene Potemsky",
+    "company": "Blockchain/Web3 (based on profile)",
+    "role": "CTO",
+    "source": "LinkedIn",
+    "status": "Request Sent",
+    "lastAction": "Sent connection request (Feb 12)",
+    "score": 4,
+    "dmDraft": "Hey Eugene, thanks for the connection. I'm finishing a technical report on 'AI-Augmented Development Pipelines for Blockchain Teams.' Since you're CTO focused on web3 and blockchain, I'd love to get your perspective on how your team handles the integration bottleneck at scale. Happy to share my 'Process Automation ROI Calculator' in exchange for your feedback."
+  },
+  {
+    "id": 3,
+    "name": "Mykyta Mokrynskyi",
+    "company": "Fintech (iPay.ua / Kyiv Engineering Technical Institute)",
+    "role": "CTO | Fintech",
+    "source": "LinkedIn",
+    "status": "Request Sent",
+    "lastAction": "Sent connection request (Feb 12)",
+    "score": 4,
+    "dmDraft": "Hey Mykyta, thanks for the connection. I'm finishing a technical report on 'Process Bottleneck Elimination for Fintech Companies Using AI Automation.' Since you're CTO in fintech, I'd love to get your perspective on what process consumes the most manual hours in your delivery pipeline. Happy to share my 'Fintech Process Optimization Framework' in exchange for your feedback."
+  }
+]

@@ -82,9 +82,8 @@ LE/
 ├── content pipeline/             # Active content pipeline
 │   ├── 1_ideas/                  # Raw ideas
 │   ├── 2_drafts/                 # Work-in-progress posts
-│   ├── 3_ready_for_review/       # Ready for final approval
-│   ├── 4_scheduled/              # Approved with planned dates
-│   └── 5_published/              # Published posts (learning corpus)
+│   ├── 3_review/                 # Ready for final approval
+│   └── 4_published/              # Published posts
 ├── research/                     # Content research & insights
 │   ├── trending_topics.md        # Trending AI / business topics
 │   ├── competitor_profiles.md    # 10k+ follower profile analysis
@@ -96,11 +95,18 @@ LE/
 ├── analytics/                    # Performance tracking
 │   ├── post_performance.md       # Per-post metrics
 │   └── winning_posts.md          # High-performers with analysis
-└── .agent/workflows/             # Agent workflows
-    ├── generate-ideas.md         # Research → ideas
-    ├── draft-post.md             # Idea → draft
-    ├── refine-post.md            # Draft → polished post
-    └── research-competitors.md   # Competitor analysis
+├── outreach/                     # LinkedIn outreach CRM
+│   ├── crm.json                  # Contact tracking (leads, statuses, engagement)
+│   └── crm_trending.json         # Daily outreach metrics & trends
+├── .agent/workflows/             # Agent workflows
+│   ├── generate-ideas.md         # Research → ideas
+│   ├── draft-post.md             # Idea → draft
+│   ├── refine-post.md            # Draft → polished post
+│   ├── publish-post.md           # Publish to LinkedIn
+│   ├── research-competitors.md   # Competitor analysis
+│   └── linkedin-outreach.md      # Daily lead generation & outreach
+└── .agent/skills/                # Reusable agent skills
+    └── crm-management.md         # CRM schema, CRUD operations, scoring, reporting
 ```
 
 ---
@@ -118,7 +124,7 @@ Research → Ideate → Draft → Refine → Approve → Publish → Analyze
 3. **Draft** — Write the post starting with the value payoff; write the hook last (≤3000 symbols max)
 4. **Refine** — Verify length (≤3000 symbols), tone, hashtags, and visuals
 5. **Approve** — Human reviews and approves the final post
-6. **Publish** — Schedule or publish directly on LinkedIn
+6. **Publish** — Run `/publish-post <filename>` to publish via browser automation
 7. **Analyze** — Track performance, identify winning patterns, feed insights back into research
 
 ### Agent Workflows
@@ -127,7 +133,9 @@ Workflows in `.agent/workflows/` automate each stage:
 - `/generate-ideas` — Research and produce a list of post ideas
 - `/draft-post` — Take an idea and produce a structured draft
 - `/refine-post` — Review and polish a draft post
+- `/publish-post` — Publish an approved post to LinkedIn using browser automation
 - `/research-competitors` — Analyze profiles and viral posts for inspiration
+- `/linkedin-outreach` — Daily lead generation: search → engage → connect → CRM track
 
 ---
 

@@ -1,0 +1,1 @@
+execute .agent/workflows/step-2-draft-post.md

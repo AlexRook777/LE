@@ -34,10 +34,10 @@ description: Review and polish a LinkedIn post draft to publication-ready qualit
 - [ ] 5-10 relevant hashtags after separator?
 
 ### Duplication Check
-- [ ] Topic not already covered in `content pipeline/5_published/`?
+- [ ] Topic not already covered in `content pipeline/4_published/`?
 - [ ] Angle is fresh compared to existing posts?
 
 4. Make refinements based on the checklist
 5. If an image is needed, generate it using the `generate_image` tool with a prompt from `templates/image_prompts.md`
-6. Move the refined post to `content pipeline/3_ready_for_review/`
+6. Move the refined post to `content pipeline/3_review/`
 7. Present the polished post to the user for final approval

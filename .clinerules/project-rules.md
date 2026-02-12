@@ -1,0 +1,2 @@
+- treat the .gemini.md as the primary source of truth for the project
+- when you need to read, analyze, modify, or generate workflows, always use folder .agent/workflows/ as the source of truth
