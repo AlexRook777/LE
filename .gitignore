@@ -48,5 +48,10 @@ dmypy.json
 # Editors
 .vscode/
 
+# Node / MCP servers
+node_modules/
+mcp-servers/*/build/
+mcp-servers/*/node_modules/
+
 # Logs
 *.log

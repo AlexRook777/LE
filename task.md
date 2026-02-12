@@ -1,1 +1,0 @@
-Navigate to Google.com, find 'Oleksandr Hrachov' related sites, and open the first url and save the content to file 'my_sites.md'
